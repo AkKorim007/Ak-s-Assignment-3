@@ -29,7 +29,6 @@
             clifford: '#da373d',
             'arrow-bg': 'rgb(171, 239, 95)',
             'button-bg': 'rgba(171, 239, 95, 0.5)',
-            'nav-bg': '	#d0d0d0',
             'title-color': 'rgb(33, 33, 33)',
             'search-color': 'rgb(255,255,255)',
             'p-color': 'rgb(73, 73, 73)',
@@ -42,118 +41,121 @@
 
 <body class="font-manrope">
   <!-- Header Section  -->
-  <header class="container mx-auto lg:pb-24 lg:pt-2 pb-12">
-    <nav class="mx-3">
-      <!-- Navbar  -->
-      <div class="navbar flex justify-between mb-10">
-        <!-- Nav starts  -->
-        <div class="navbar-start">
-          <!-- Logo  -->
-          <div class="Logo flex gap-2">
-            <!-- Icon  -->
-            <div class="pt-1">
-              <i class="-rotate-45 w-7 h-7 pt-1.5 rounded-full text-center bg-arrow-bg fa-solid fa-arrow-right"></i>
-            </div>
-            <!-- Title  -->
-            <h1 class="text-3xl font-extrabold  text-title-color">Rinterio</h1>
-          </div>
-        </div>
-
-        <!-- Nav center -->
-        <div class="navbar-center hidden lg:flex mt-4 space-x-3">
-          <a class="font-bold" href="">Home</a>
-          <a class="font-bold text-stone-400" href="">Services</a>
-          <a class="font-bold text-stone-400" href="">Portfolio</a>
-          <a class="font-bold text-stone-400" href="">Blogs</a>
-          <a class="font-bold text-stone-400" href="">Contact Us</a>
-        </div>
-
-        <!-- Nav end -->
-        <div class="navbar-end hidden md:block lg:flex space-x-3">
-
-          <!-- Search button  -->
-          <button class="btn btn-ghost btn-circle text-stone-500 bg-white">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-              stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-            </svg>
-          </button>
-
-          <!-- cart button  -->
-          <button class="btn btn-ghost btn-circle text-stone-600 bg-white">
-            <div class="w-6">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
-                  d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-              </svg>
-            </div>
-          </button>
-
-          <!-- Arrow button  -->
-          <button class="btn bg-arrow-bg text-lg font-extrabold rounded-full">Book Consult<div class="Logo flex gap-2">
-              <!-- Icon  -->
-              <i
-                class="-rotate-45 w-8 h-8 pt-2 rounded-full text-center bg-black text-white fa-solid fa-arrow-right"></i>
-            </div></button>
-        </div>
-
-        <!-- Hamburger button  -->
-        <button class="btn btn-square bg-white rounded-full btn-ghost lg:hidden md:block">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-            class="inline-block h-5 w-5 stroke-current">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-          </svg>
-        </button>
-      </div>
-
-      <!-- Banner  -->
-      <div class="space-y-6">
-        <div class="flex justify-center mx-5">
-          <img src="assets/banner.png" alt="">
-        </div>
-        <!-- banner text  -->
-        <div class="md:mx-6 lg:mx-44 text-center space-y-6">
-          <h1 class="lg:text-6xl md:text-5xl text-2xl font-extrabold text-title-color">A barn house of this design has a
-            striking appearance</h1>
-
-          <p class="text-title-color lg:text-base lg:mx-24 md:mx-32  text-xs font-medium">The barn house captivates with
-            its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and
-            large windows that flood the space with natural light.</p>
-
-          <button
-            class="btn text-lg  font-extrabold rounded-full text-title-color bg-button-bg lg:px-4 md:px-4 px-16">View
-            Details
+  <header class="bg-gradient-to-t from-white to-stone-100">
+    <div class=" container mx-auto lg:pb-24 lg:pt-2 pb-12">
+      <nav class="mx-3">
+        <!-- Navbar  -->
+        <div class="navbar flex justify-between mb-10">
+          <!-- Nav starts  -->
+          <div class="navbar-start">
+            <!-- Logo  -->
             <div class="Logo flex gap-2">
               <!-- Icon  -->
-              <i class="-rotate-45 w-8 h-8 pt-2 rounded-full text-center bg-arrow-bg fa-solid fa-arrow-right"></i>
+              <div class="pt-1">
+                <i class="-rotate-45 w-7 h-7 pt-1.5 rounded-full text-center bg-arrow-bg fa-solid fa-arrow-right"></i>
+              </div>
+              <!-- Title  -->
+              <h1 class="text-3xl font-extrabold  text-title-color">Rinterio</h1>
             </div>
+          </div>
+  
+          <!-- Nav center -->
+          <div class="navbar-center hidden lg:flex mt-4 space-x-10">
+            <a class="font-bold" href="">Home</a>
+            <a class="font-bold text-stone-400" href="">Services</a>
+            <a class="font-bold text-stone-400" href="">Portfolio</a>
+            <a class="font-bold text-stone-400" href="">Blogs</a>
+            <a class="font-bold text-stone-400" href="">Contact Us</a>
+          </div>
+  
+          <!-- Nav end -->
+          <div class="navbar-end hidden md:block lg:flex space-x-3">
+  
+            <!-- Search button  -->
+            <button class="btn btn-ghost btn-circle text-stone-500 bg-white">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+            </button>
+  
+            <!-- cart button  -->
+            <button class="btn btn-ghost btn-circle text-stone-600 bg-white">
+              <div class="w-5 ">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
+              </div>
+            </button>
+  
+            <!-- Arrow button  -->
+            <button class="border-none btn bg-arrow-bg text-lg font-extrabold rounded-full">Book Consult<div class="Logo flex gap-2">
+                <!-- Icon  -->
+                <i
+                  class="-rotate-45 w-8 h-8 pt-2 rounded-full text-center bg-black text-white fa-solid fa-arrow-right"></i>
+              </div></button>
+          </div>
+  
+          <!-- Hamburger button  -->
+          <button class="btn btn-square bg-white rounded-full btn-ghost lg:hidden md:block">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+              class="inline-block h-5 w-5 stroke-current">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
           </button>
         </div>
-      </div>
-    </nav>
+  
+        <!-- Banner  -->
+        <div class="space-y-6">
+          <div class="flex justify-center mx-5">
+            <img src="assets/banner.png" alt="">
+          </div>
+          <!-- banner text  -->
+          <div class="md:mx-6 lg:mx-44 text-center space-y-6">
+            <h1 class="lg:text-6xl md:text-5xl text-2xl font-extrabold text-title-color">A barn house of this design has a
+              striking appearance</h1>
+  
+            <p class="text-title-color lg:text-base lg:mx-24 md:mx-32  text-xs font-medium">The barn house captivates with
+              its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and
+              large windows that flood the space with natural light.</p>
+  
+            <button
+              class="btn text-lg  font-extrabold rounded-full text-title-color bg-button-bg border-none lg:px-4 md:px-4 px-16">View
+              Details
+              <div class="Logo flex gap-2">
+                <!-- Icon  -->
+                <i class="-rotate-45 w-8 h-8 pt-2 rounded-full text-center bg-arrow-bg fa-solid fa-arrow-right"></i>
+              </div>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </div>
   </header>
 
+  <!-- Main Section  -->
   <main>
     <!-- We Design Section  -->
     <section>
       <div class="hero bg-base-200 min-h-screen">
-        <div class="lg:flex justify-between gap-5 lg:max-w-6xl lg:my-24 my-12 mx-5 ">
+        <div class="lg:flex justify-between gap-6 lg:max-w-6xl lg:my-24 my-12 mx-5 ">
 
-          <div class="lg:relative pb-7">
-            <div class="lg:text-start lg:pb-2 text-center">
+          <div class="lg:relative lg:pb-7">
+            <div class="lg:text-start lg:pb-2.5 text-center">
               <!-- Arrow vector -->
               <div class="hidden lg:flex lg:absolute w-full -top-14"><img class="-ml-20" src="assets/Vector.png" alt="">
               </div>
               <!-- About btn  -->
-              <button class="btn btn-sm text-p-color font-bold rounded-full bg-white mb-5"><i
+              <button class="btn btn-sm text-p-color font-bold rounded-full border-none bg-white mb-5"><i
                   class="fa-solid fa-arrow-right"></i> About Us</details>
               </button>
               <!-- Thoughtful Text  -->
-              <h1 class="lg:text-4xl font-extrabold text-2xl text-title-color">We design thoughtful,<br> liveable spaces
+              <h1 class="lg:text-4xl font-extrabold text-2xl text-title-color lg:mr-16">We design thoughtful, liveable spaces
               </h1>
-              <p class="lg:font-semibold lg:text-base py-7 font-medium text-p-color text-xs">
+              <p class="lg:font-semibold text-base py-7 font-medium text-p-color md:px-5 lg:px-0">
                 The barn house captivates with its blend of rustic charm and
                 modern sophistication, featuring weathered wood, sleek metal accents.
               </p>
@@ -161,10 +163,10 @@
 
 
             <!-- card container  -->
-            <div class="">
+            <div class="md:grid md:grid-cols-2 gap-5 lg:grid-cols-1">
               <!-- card 1  -->
-              <div class="card card-side bg-base-100 ">
-                <figure class="lg:pt-9 px-5 pt-5 w-2/2 h-2/5">
+              <div class="card card-side bg-base-100 mb-5 lg:mb-0">
+                <figure class="px-5 pt-5 w-2/2 h-2/4 lg:h-full lg:pb-5">
                   <img class="lg:w-20" src="assets/commercial.png" />
                 </figure>
                 <div class="lg:card-body lg:pr-10 py-5 pr-5 space-y-5">
@@ -173,10 +175,10 @@
                     blend of rustic charm and modern.</p>
                 </div>
               </div>
-              <br>
+            
               <!-- card 2  -->
-              <div class="card card-side bg-base-100">
-                <figure class="lg:pt-9 px-5 pt-5 w-2/2 h-2/5">
+              <div class="card card-side bg-base-100 mb-5 lg:mb-0">
+                <figure class="px-5 pt-5 w-2/2 h-2/4 lg:h-full lg:pb-5">
                   <img class="lg:w-20" src="assets/residential.png" />
                 </figure>
                 <div class="lg:card-body lg:pr-10 py-5 pr-5 space-y-5">
@@ -190,7 +192,8 @@
 
           <!-- Rectangle Image  -->
           <div class="lg:w-5/6 lg:h-full">
-            <img class="lg:w-full lg:h-full  object-cover h-48 w-96 rounded-xl" src="assets/Rectangle.png" />
+            <img class="lg:w-full lg:h-full md:h-96 md:w-full
+             object-cover h-48 w-96 rounded-xl" src="assets/Rectangle.png" />
           </div>
         </div>
       </div>
@@ -203,12 +206,12 @@
           <div class="px-5 lg:px-0 pb-7">
             <div class="pb-2 text-center">
               <!-- How we work Btn -->
-              <button class="btn btn-sm text-p-color font-bold rounded-full bg-white mb-5"><i
+              <button class="btn btn-sm text-p-color font-bold rounded-full border-none bg-white mb-5"><i
                   class="fa-solid fa-arrow-right"></i>How we works</details>
               </button>
               <!-- Our Works Text  -->
               <h1 class="lg:text-4xl font-extrabold text-2xl text-title-color">Our Works Process</h1>
-              <p class="lg:font-semibold lg:text-base lg:mx-52 md:mx-40 lg:py-7 py-5 font-medium text-p-color text-xs">
+              <p class="lg:font-semibold text-base lg:mx-52 md:mx-40 lg:py-7 py-5 font-medium text-p-color">
                 The barn house captivates with its blend of rustic charm and modern sophistication,featuring weathered
                 wood, sleek metal accents.
               </p>
@@ -265,7 +268,7 @@
         <div class="px-5 lg:px-0 pb-7">
           <div class="pb-2 text-center">
             <!-- Latest work Btn -->
-            <button class="btn btn-sm text-p-color font-bold rounded-full bg-button-bg mb-5"><i
+            <button class="btn btn-sm text-p-color font-bold rounded-full bg-button-bg border-none mb-5"><i
                 class="fa-solid fa-arrow-right"></i>Explore our Latest works</details>
             </button>
             <!-- Portfolio Text  -->
@@ -281,7 +284,7 @@
 
             <!-- card 1  -->
             <div
-              class="card lg:col-span-8 lg:card-side md:col-span-12 md:card-side  bg-base-100  border-solid border rounded-2xl">
+              class="card lg:col-span-8 lg:card-side md:col-span-12 md:card-side  bg-base-100  lg:border-solid lg:border rounded-2xl">
               <figure>
                 <img class="w-full lg:pr-0 md:pr-0 py-6 pl-6 pr-6" src="assets/img1.png" />
               </figure>
@@ -306,26 +309,26 @@
             </div>
 
             <!-- card 2 -->
-            <div class="bg-white lg:col-span-4 md:col-span-6 p-5 border-solid border rounded-2xl">
+            <div class="bg-white lg:col-span-4 md:col-span-6 p-5 lg:border-solid lg:border rounded-2xl">
               <img class="lg:object-none md:object-none lg:h-full md:h-full object-cover h-56 w-96 rounded-xl"
                 src="assets/img2.png" alt="">
             </div>
 
             <!-- card 3 hidden in lg-->
-            <div class="bg-white lg:hidden col-span-1 md:col-span-6 p-5 border-solid border rounded-2xl">
+            <div class="bg-white lg:hidden col-span-1 md:col-span-6 p-5 lg:border-solid lg:border rounded-2xl">
               <img class="object-cover md:h-44 h-48 w-96 rounded-xl" src="assets/img5.png" alt="">
             </div>
 
             <!-- card 4 -->
             <div
-              class="bg-white order-last lg:order-none lg:col-span-3 md:col-span-6 p-5 border-solid border rounded-2xl ">
+              class="bg-white order-last lg:order-none lg:col-span-3 md:col-span-6 p-5 lg:border-solid lg:border rounded-2xl ">
               <img class="lg:h-full md:h-44 lg:object-none object-cover h-56 w-96 rounded-xl" src="assets/img3.png"
                 alt="">
             </div>
 
             <!-- card 5  -->
             <div
-              class="card lg:col-span-6 lg:card-side md:col-span-12 md:card-side  bg-base-100  border-solid border rounded-2xl">
+              class="card lg:col-span-6 lg:card-side md:col-span-12 md:card-side  bg-base-100  lg:border-solid lg:border rounded-2xl">
               <figure>
                 <img class="w-full lg:pr-0 md:pr-0 py-6 pl-6 pr-6" src="assets/img4.png" />
               </figure>
@@ -350,7 +353,7 @@
 
             <!-- card 6 -->
             <div
-              class="bg-white order-last lg:order-none  lg:col-span-3 md:col-span-6 p-5 border-solid border rounded-2xl ">
+              class="bg-white order-last lg:order-none  lg:col-span-3 md:col-span-6 p-5 lg:border-solid lg:border rounded-2xl ">
               <img class="lg:h-full md:h-44 lg:object-none object-cover h-56 w-96 rounded-xl" src="assets/img5.png"
                 alt="">
             </div>
@@ -363,12 +366,12 @@
 
     <!-- Next Project Section  -->
     <section>
-      <div class="bg-cover bg-no-repeat lg:py-24 md:py-16 py-6 px-6" style="background-image: url(assets/bg.jpg);">
+      <div class="bg-cover bg-no-repeat lg:py-24 md:py-16 py-6 px-6 border-white border-4" style="background-image: url(assets/bg.jpg);">
         <div class="max-w-5xl mx-auto">
           <!-- Next Project text -->
           <div class="md:mx-20 lg:mx-36 pb-2 text-center">
             <!-- Next Project Btn -->
-            <button class="btn btn-sm text-p-color font-bold rounded-full bg-button-bg mb-5"><i
+            <button class="btn btn-sm text-p-color font-bold rounded-full bg-button-bg border-none mb-5"><i
                 class="fa-solid fa-arrow-right"></i>Let's Connect</details>
             </button>
             <!-- Project Text  -->
@@ -393,7 +396,7 @@
               id=""></textarea>
 
             <!-- Arrow button  -->
-            <button class="lg:col-span-2 md:col-span-2 h-14 btn bg-arrow-bg text-lg font-extrabod rounded-full text-black">Send Mail<div
+            <button class="lg:col-span-2 md:col-span-2 h-14 btn bg-arrow-bg text-lg font-extrabod border-none rounded-full text-black">Send Mail<div
                 class="Logo flex gap-2">
                 <!-- Icon  -->
                 <i
@@ -403,10 +406,46 @@
         </div>
       </div>
     </section>
-
   </main>
 
-  <footer></footer>
+  <!-- Footer Section  -->
+    <footer 
+    class="footer footer-center bg-black py-24 px-8">
+      <!-- Footer content  -->
+      <div>
+        <!-- Logo  -->
+        <div class="Logo flex gap-2">
+          <!-- Icon  -->
+          <div class="pt-1">
+            <i class="-rotate-45 w-7 h-7 p-1.5 rounded-full text-center bg-arrow-bg fa-solid fa-arrow-right"></i>
+          </div>
+          <!-- Title  -->
+          <h1 class="text-3xl font-extrabold  text-white">Rinterio</h1>
+        </div>
+         <p class="font-semibold text-base py-4 text-p-color w-3/4">
+          The barn house captivates with its blend of rustic charm and modern sophistication,featuring weathered
+          wood, sleek metal accents.
+         </p>
+      </div>
+      
+      <nav class="grid lg:grid-flow-col md:grid-flow-col gap-5 lg:space-x-24 md:space-x-20 text-base text-stone-400 pb-3">
+        <a class="link link-hover">Home</a>
+        <a class="link link-hover">Services</a>
+        <a class="link link-hover">Portfolio</a>
+        <a class="link link-hover">Blogs</a>
+        <a class="link link-hover">Contact Us</a>
+      </nav>
+
+      <!-- Footer button  -->
+      <button class="flex btn border-none bg-arrow-bg text-lg font-extrabold rounded-full text-black px-10">
+        Book Consult
+        <div class="Logo gap-2">
+        <!-- Icon  -->
+        <i
+          class="-rotate-45 w-8 h-8 pt-2 rounded-full text-center bg-black text-white fa-solid fa-arrow-right"></i>
+      </div>
+      </button>
+    </footer>
 </body>
 
 </html>
